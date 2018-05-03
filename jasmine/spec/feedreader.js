@@ -101,12 +101,12 @@ $(function() {
             });
         });
 
-        // Test that there is at least one entry feed
+        // Test that feed0 is different than feed1
         it('feed changes', function(done) {
             const feed = document.querySelector('.feed');
             expect(feed0).not.toBe(feed1);
             done();
         });
     });
-    
+
 }());
