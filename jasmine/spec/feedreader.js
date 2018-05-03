@@ -75,7 +75,6 @@ $(function() {
             loadFeed(0, function() {
                 done();
             });
-            
         });
 
         // Test that there is at least one entry feed
@@ -84,7 +83,6 @@ $(function() {
             expect(feed.hasChildNodes()).toBe(true);
             done();
         });
-
     });
 
      // Test suite to check that ensures the content changes if a new feed is loaded
@@ -110,4 +108,5 @@ $(function() {
             done();
         });
     });
+    
 }());
