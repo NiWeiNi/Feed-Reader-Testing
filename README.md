@@ -16,4 +16,6 @@ There are 4 tests suites:
 
 ## Instructions
 
-Clone or download this repository and open index.html, the tests will run automatically and show at the bottom of the web.
+- Use the [live version](https://niweini.github.io/Feed-Reader-Testing/)
+
+- Clone or download this repository and open index.html, the tests will run automatically and show at the bottom of the web.
